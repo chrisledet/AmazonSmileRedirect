@@ -1,0 +1,1 @@
+window.location = document.location.href.replace("www.", "smile.");

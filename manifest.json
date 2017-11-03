@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "Amazon Smile Redirect",
+  "version": "1.0",
+  "description": "Redirects amazon.com requests to smile.amazon.com",
+  "content_scripts": [
+    { "matches": ["*://www.amazon.com/*"], "js": ["smile.js"] }
+  ]
+}
